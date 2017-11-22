@@ -3,17 +3,23 @@ div {
 }
 
 div[id="third"] > p {
-	display: none;
+	visibility:  visible;
 }
 
 h1 {
-	display: none;
+	visibility:  visible;
 }
 
-div[id="second"] div {
-	visibility: hidden;
-}
+#second div {
+	visibility:  visible;}
 
 img {
 	visibility:  visible;
 }
+
+#first p {
+
+	font-size: 25px;
+} 
+
+
