@@ -1,0 +1,19 @@
+div {
+	border: 3px solid red;
+}
+
+div[id="third"] > p {
+	display: none;
+}
+
+h1 {
+	display: none;
+}
+
+div[id="second"] div {
+	visibility: hidden;
+}
+
+img {
+	visibility:  visible;
+}
